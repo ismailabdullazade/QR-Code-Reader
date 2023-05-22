@@ -1,0 +1,17 @@
+body{
+    font-family:" san-serif";
+  }
+  button{
+    border:none;
+    background:transparent;
+    cursor:pointer;
+  }
+  button i{
+    color:blue;
+    font-size:18px;
+    font-weight:300;
+  }
+  .container{
+    display:flex;
+    align-items:center;
+  }
