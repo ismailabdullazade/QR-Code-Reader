@@ -14,4 +14,8 @@ body{
   .container{
     display:flex;
     align-items:center;
+  };
+  #reader{
+    margin-top:20px;
+    width:250px;
   }

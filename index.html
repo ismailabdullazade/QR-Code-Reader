@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>Document</title>
 </head>
+
 <body>
     <div style=" width:380px;margin: 0 auto;">
         <h3>
             Write the address or Scan the QR code
-            </h3>
-            <div class="container">
-            
+        </h3>
+        <div class="container">
+
             <input id="result" type="text" />
             <button>
-            <i class="fa fa-light fa-qrcode"></i>
+                <i class="fa fa-light fa-qrcode"></i>
             </button>
-            </div>
+
+
+        </div>
+        <div id="reader">
+        </div>
     </div>
 
-    
-    
+
+
 
     <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
 </body>
+
 </html>
